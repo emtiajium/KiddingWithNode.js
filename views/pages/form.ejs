@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+		
+	<head>
+
+		<title>CUET Online Registration</title>
+
+		<link rel="shortcut icon" href="../../images/logo.png">
+		<link rel="stylesheet" type="text/css" href="../../stylesheets/homeCSS.css" />
+		<link rel="stylesheet" href="../../stylesheets/form.css" />
+  	
+	</head>
+	
+	<body>
+		
+        <%- include ../partials/header %>
+		
+		<div id="text1" style="position:absolute; overflow:hidden; left:0px; top:150px; width:1348px; height:35px; background:#ddd; z-index:0">
+			<marquee style="text-decoration:none;font-size:24px;">Welcome <%- userName %>!</marquee>
+		</div>
+			
+		<div>
+			<a href="/admitCard.pdf" target="_blank" style="position:absolute;top:250px;left:250px;font-size:14px"><ul><li>Print Admit Card</li></ul></a><br/>
+			<a href="/moneyReceipt.pdf" target="_blank" style="position:absolute;top:280px;left:250px;font-size:14px"><ul><li>Print Money Receipt</li></ul></a><br/>
+			<a href="/registrationForm.pdf" target="_blank" style="position:absolute;top:310px;left:250px;font-size:14px"><ul><li>Print Registration Form</li></ul></a>
+		</div>
+		
+		<div class="form" style="position:absolute; left:270px; top:380px;">
+			<form class = "form" action="loginform" method = "POST">
+				<button type="submit" id="submit">Log Out</button>
+			</form>
+		</div>
+		
+        <%- include ../partials/footer %>
+		
+    </body>
+	
+</html>

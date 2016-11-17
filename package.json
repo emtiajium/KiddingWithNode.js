@@ -1,0 +1,19 @@
+{
+	"name" : "CUETregistrationHelper",
+	"description" : "A web app for term registration.",
+	"version" : "0.0.1",
+	"main" : "app.js",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/emtiajium/KiddingWithNode.js"
+	},
+	"dependencies" : {
+		"body-parser" : "1.15.2",
+		"cookie-parser" : "1.4.3",
+		"ejs" : "2.5.2",
+		"express" : "4.14.0",
+		"express-mysql-session" : "1.2.0",
+		"express-session" : "1.14.2",
+		"mysql" : "2.11.1"
+	}
+}

@@ -1,0 +1,54 @@
+div#guide ul{
+	position:absolute;
+	top: 220px;
+	left: 450px;
+	list-style-type: none;
+	width: 780px;
+	margin: 0;
+	padding: 0;
+}
+div#guide li{
+	float: left;
+	width: 260px;
+	padding: 2em 0;
+}
+
+div#guide h3{
+	margin: 0 10px;
+	padding: .5em 0 0 0;
+	font-size: 100%;
+	font-style:italic;
+	color:#800;
+}
+
+div#guide h3 img{
+	display: block;
+}
+
+div#contacts ul{
+	position: absolute;
+	top: 550px;
+	left: 300px;
+	list-style-type: none;
+	width: 780px;
+	margin: 0;
+	padding: 0;
+}
+
+div#contacts li{
+	float: left;
+	width: 260px;
+	padding: 2em 0;
+}
+
+div#contacts h3{
+	margin: 0 10px;
+	padding: .5em 0 0 0;
+	font-size: 100%;
+	font-style:italic;
+	color:#800;
+}
+
+div#contacts h3 img{
+	display: block;
+}

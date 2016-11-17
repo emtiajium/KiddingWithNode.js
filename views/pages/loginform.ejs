@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+		
+	<head>
+		<title>CUET Online Registration</title>
+
+		<link rel="shortcut icon" href="../../images/logo.png">
+		<link rel="stylesheet" type="text/css" href="../../stylesheets/homeCSS.css" />
+		<link rel="stylesheet" href="../../stylesheets/themes.css" />
+		<link rel="stylesheet" href="../../stylesheets/form.css" />
+		
+	</head>
+	
+	<body>
+		
+        <%- include ../partials/header %>
+		
+		<div id="form" style="position:absolute;left:25%;top:250px;">
+			<form class = "form" action="form" method = "POST">
+				<input type="text" size="40" placeholder="Type your ID" id="id" name = "id"> <br />
+				<input type="password" size="40" placeholder="Type your Password" id="password" name = "password"><br /> <br />
+				<button type="submit" id="submit">Login</button>
+			</form>
+		</div>
+        
+        <%- include ../partials/footer %>
+		
+    </body>
+	
+</html>

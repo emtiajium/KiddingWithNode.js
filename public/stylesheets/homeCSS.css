@@ -1,0 +1,190 @@
+div#logo{
+	background-color:#282828;
+	position:absolute;
+	width:100%;
+	height:150px;
+	top: 0px;
+	left: 0px;
+}
+
+div#h5 {
+	position : absolute;
+	left:226px;
+	top:-19px;
+	width: 903px;
+	height : 97px;
+	padding : 0;
+	margin : 0;
+	font-style:normal;
+	font-size :50%;
+}
+
+div#navcontainer{
+	position:relative;
+	z-index:100;
+	left:270px;
+	top:110px;
+	width:50%;
+}
+
+ul#navlist{
+	position:relative;
+	left:0%;
+	font-family: sans-serif;
+	width:100%;
+}
+
+ul#navlist a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul#navlist, ul#navlist ul, ul#navlist li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul#navlist li{
+	float: left;
+}
+
+ul#navlist li a{
+	color: #ffffff;
+	background-color: #000;
+	padding: 3px;
+	/*border: 1px #ffffff outset;*/
+}
+
+ul#navlist li a:hover{
+	color: #ffff00;
+	background-color: #003366;
+}
+
+ul#navlist li a:active{
+	color: #cccccc;
+	background-color: #003366;
+	border: 1px #ffffff inset;
+}
+
+ul#subnavlist{
+	display: none;
+}
+
+ul#subnavlist li{
+	float: none;
+}
+
+ul#subnavlist li a{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#navlist li:hover ul#subnavlist{
+	display: block;
+	position: absolute;
+	font-size: 8pt;
+	padding-top: 5px;
+}
+
+ul#navlist li:hover ul#subnavlist li a{
+	display: block;
+	width: 10em;
+	border: none;
+	padding: 2px;
+}
+
+ul#navlist li:hover ul#subnavlist li a:before{
+	content:no-close-quote;
+}
+
+
+div#login{
+	background-color:#DDD;
+	position:absolute;
+	left:0px;
+	top:150px;
+	height:60px;
+	width:100%;
+}
+
+div#sublogin{
+	position:relative;
+	top:40%;
+	left:45%;
+	height:50%;
+	width:40%;
+}
+
+*{outline: none;}
+img {border: 0;}
+.container {
+	position:relative;
+	left:10px;top:350px;
+	width: 800px;
+	padding: 0;
+	margin: 0 auto;
+}
+.folio_block {
+	position: absolute;
+	left: 50%; top: 55%;
+	margin: -140px 0 0 -395px;
+}
+
+
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+}
+/*--Window/Masking Styles--*/
+.window {
+	height:286px;	width: 790px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	position: absolute;
+	bottom: 40px; right: -7px;
+	width: 178px; height:47px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 40px;
+	background: url(paging_bg2.png) no-repeat;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.paging a.active {
+	font-weight: bold;
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging a:hover {
+	font-weight: bold;
+}
+
+#baseline{
+	position:absolute;
+	left:0px;
+	top:840px;
+	bottom:0px;
+	width:100%;
+	background-color:#282828;
+	color:#fff;
+	font-size:20px;
+	height:100px;
+}

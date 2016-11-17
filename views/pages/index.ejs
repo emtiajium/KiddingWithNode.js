@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+		
+<html>
+		
+	<head>
+
+		<title>CUET Online Registration</title>
+		
+		<link rel="shortcut icon" href="../../images/logo.png">
+		<link rel="stylesheet" type="text/css" href="../../stylesheets/homeCSS.css" />
+		<link rel="stylesheet" type="text/css" href="../../stylesheets/responsiveslides.css" />
+		<link rel="stylesheet" href="../../stylesheets/themes.css" />
+		
+		<script src="../../javascripts/jquery.min.js"></script>
+		<script src="../../javascripts/responsiveslides.min.js"></script>
+         
+	</head>
+	
+	<body>
+		
+        <%- include ../partials/header %>
+		
+		<div id="text1" style="position:absolute; overflow:hidden; left:0px; top:150px; width:1348px; height:35px; background:#ddd; z-index:0">
+			<marquee><a href="loginform" style="text-decoration:none;font-size:24px;">Registration is going on!</a></marquee>
+		</div>
+		
+		<script>
+			$(function () {
+				// Slideshow 1
+				$("#slides1").responsiveSlides({
+					auto: true,
+					pagination: true,
+					nav: true,
+					fade: 500,
+					maxwidth: 800
+				});
+			});
+		</script>
+		<div id="wrapper">
+			<div class="rslides_container">
+				<ul id="slides1" class="rslides">
+					<li>
+						<img src="images/Entrance.jpg" alt="" />
+						<p class="caption">Entrance</p>
+					</li>
+					<li>
+						<img src="images/workshop.jpg" alt="" />
+						<p class="caption">Workshop</p>
+					</li>
+					<li>
+						<img src="images/hall.jpg" alt="" />
+						<p class="caption">Hall</p>
+					</li>
+					<li>
+						<img src="images/auditorium.jpg" alt="" />
+						<p class="caption">Auditoriam</p>
+					</li>
+					<li>
+						<img src="images/street.jpg" alt="" />
+						<p class="caption">Street</p>
+					</li>
+					<li>
+						<img src="images/rain.jpg" alt="" />
+						<p class="caption">Rainy Day</p>
+					</li>
+					<li>
+						<img src="images/fest.jpg" alt="" />
+						<p class="caption">CSE Fest '13 Rally</p>
+					</li>                
+					<li>
+						<img src="images/joyodhoni.jpg" alt="" />
+						<p class="caption">Joyodhony performence</p>
+					</li>
+					<li>
+						<img src="images/ds.jpg" alt="" />
+						<p class="caption">Cultuaral Show</p>
+					</li>
+					<li>
+						<img src="images/pahela.jpg" alt="" />
+						<p class="caption">Pahela Baishak Celebration</p>
+					</li>
+					<li>
+						<img src="images/pond.jpg" alt="" />
+						<p class="caption">Pond</p>
+					</li>
+					<li>
+						<img src="images/shaheed.jpg" alt="" />
+						<p class="caption">Shaheed Minar</p>
+					</li>
+					<li>
+						<img src="images/lake.jpg" alt="" />
+						<p class="caption">Lake</p>
+					</li>
+			  </ul>
+		</div>
+    </div>
+        
+        
+	<%- include ../partials/footer %>
+	
+    </body>
+	
+</html>
